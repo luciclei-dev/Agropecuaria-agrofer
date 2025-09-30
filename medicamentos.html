@@ -23,11 +23,14 @@
         </form>
         <ul id="resultados"></ul> <!-- ver  produtos -->
       </div>
-      <div class="login-sair"> <button  class="nav-link" href="login.html">Login</button>
-            <a class="nav-link disabled" aria-disabled="true"></a>
-            
-             <button id="logoutBtn" class="nav-link">Sair</button>
-            <a class="nav-link disabled" aria-disabled="true"></a>
+
+      <div class="login-sair"> <a class="login" href="login.html"> 
+        <img src="icons-entrar.png" alt="" class="nav-link" style="width: 20px;">
+         
+        </a>
+        <a class="nav-link disabled" aria-disabled="true"></a>
+        <img src="icons-sair.png" alt="" id="logoutBtn" class="nav-link"style="width: 20px;" height="20px">
+        <a class="nav-link disabled " aria-disabled="true"></a>
           </div>
      <div class="carrinho position-relative" style="cursor:pointer;" onclick="mostrarCarrinho()">
   <img src="carrinho-de-compras.png" alt="carrinho">
@@ -75,7 +78,7 @@
 <!--CARDS DE MEDICAMENTOS -->
 
 <section class="produtos">
-  <h2 class="produtos">Medicamentos >>></h2>
+  <h2 class="produtos">Medicamentos </h2>
   <div class="container my-5">
     <div id="medicamentos-container" class="row row-cols-1 row-cols-md-3 g-4"></div>>
       <!-- Medicamentos vão aparecer aqui -->
