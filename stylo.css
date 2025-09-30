@@ -34,11 +34,14 @@ header {
 
 .login-sair {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #dddfe1;
   font-size: 1rem;
   font-weight: bold;
   gap: 10px;
   width: 150px;
+ 
 }
 
 
@@ -49,15 +52,6 @@ a.login{
 a.login:hover{
   text-decoration: none;
   color: #25d366;
-}
-button.nav-link{
-  color: #dddfe1;
-  
-}
-
-button.nav-link:hover{
-  color:#25d366;
-  
 }
 
 
